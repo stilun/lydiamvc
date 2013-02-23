@@ -146,7 +146,7 @@ if($sourceNoIntro) {
 <header>
 <h1>Show sourcecode</h1>
 <p>
-Följande filer finns i denna mapp. Klicka för att visa.
+FÃ¶ljande filer finns i denna mapp. Klicka fÃ¶r att visa.
 </p>
 </header>
 EOD;

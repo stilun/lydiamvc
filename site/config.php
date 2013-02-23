@@ -42,7 +42,7 @@ $ly->config['character_encoding'] = 'UTF-8';
 /**
  * Define language
  */
-$ly->config['language'] = 'en';
+$ly->config['language'] = 'sv';
 
 
 /**
