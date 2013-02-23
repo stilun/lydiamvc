@@ -1,3 +1,3 @@
 My first PHPMVC project.
 ========================
-My first phpmvc project to download, if anyone wish to do that.
+My first phpmvc project to download, if anyone want to do that.
