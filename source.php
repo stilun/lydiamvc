@@ -144,7 +144,7 @@ if($sourceNoIntro) {
 } else {
   $source_html = <<<EOD
 <header>
-<h1>Show sourcecode</h1>
+<h1>Visa källkoden</h1>
 <p>
 Följande filer finns i denna mapp. Klicka för att visa.
 </p>
@@ -359,15 +359,13 @@ EOD;
 EOD;
 }
 
-
-
 // -------------------------------------------------------------------------------------------
 //
 // Create and print out the html-page
 //
-$source_pageTitle = "Show sourcecode";
+$source_pageTitle = "Visa källkoden";
 $source_pageCharset = "utf-8";
-$source_pageLanguage = "en";
+$source_pageLanguage = "sv";
 $sourceBody=$source_html;
 $sourceStyle=<<<EOD
      div.container {
@@ -408,6 +406,7 @@ EOD;
 if(!isset($sourceNoEcho)) {
   // Print the header and page
   //header("Content-Type: text/html; charset={$source_pageCharset}");
+
   echo <<<EOD
 <!DOCTYPE html>
 <html lang="{$source_pageLanguage}">
