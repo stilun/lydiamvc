@@ -407,7 +407,7 @@ EOD;
 
 if(!isset($sourceNoEcho)) {
   // Print the header and page
-  header("Content-Type: text/html; charset={$source_pageCharset}");
+  //header("Content-Type: text/html; charset={$source_pageCharset}");
   echo <<<EOD
 <!DOCTYPE html>
 <html lang="{$source_pageLanguage}">
